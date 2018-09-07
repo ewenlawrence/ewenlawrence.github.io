@@ -9,4 +9,3 @@ citation: 'A. Strathearn, P. Kirton, D. Kilda, J. Keeling and B. W. Lovett <i>Na
 ---
 [arXiv Link](https://arxiv.org/abs/1711.09641)
 
-Recommended citation: A. Strathearn, P. Kirton, D. Kilda, J. Keeling and B. W. Lovett <i>Nature Communications</i> 9, 3322 (2018).
