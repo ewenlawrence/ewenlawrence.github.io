@@ -11,12 +11,14 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Physics, University of Nottingham, 2012
+* Ph.D Physics, University of Nottingham, 2012
 * MSci. Physics with theoretical physics, University of Nottingham, 2008
 
 Work experience
 ======
-
+* 2018-present, Erwin Schr&ocirc;dinger Quantum Fellow, TU Wien, Vienna
+* 2015-2018 EPSRC postdoctoral fellow, University of St Andrews, UK
+* 2012-2015 Postdoc, University of St Andrews, UK  
 
 Publications
 ======
