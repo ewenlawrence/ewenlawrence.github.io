@@ -1,5 +1,5 @@
 ---
-title: "Efficient non Markovian quantum dynamics using time evolving matrix product operators"
+title: "Efficient non-Markovian quantum dynamics using time-evolving matrix product operators"
 collection: publications
 permalink: /publication/2018-Efficient-non-Markovian-quantum-dynamics
 date: 2018-08-01
