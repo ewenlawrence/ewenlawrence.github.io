@@ -16,7 +16,7 @@ Education
 
 Work experience
 ======
-* 2018-present, Erwin Schr&ocirc;dinger Quantum Fellow, TU Wien, Vienna
+* 2018-present, Erwin Schr&ouml;dinger Quantum Fellow, TU Wien, Vienna
 * 2015-2018 EPSRC postdoctoral fellow, University of St Andrews, UK
 * 2012-2015 Postdoc, University of St Andrews, UK  
 
