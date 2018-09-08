@@ -10,7 +10,4 @@ redirect_from:
 
 This is Peter Kirton's website.
 
-<a class="twitter-timeline"
-  href="https://twitter.com/PeterGKirton">
-Tweets by @{PeterGKirton}
-</a>
+<a class="twitter-timeline" href="https://twitter.com/PeterGKirton?ref_src=twsrc%5Etfw">Tweets by PeterGKirton</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
