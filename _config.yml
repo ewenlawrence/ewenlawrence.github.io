@@ -6,7 +6,6 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-googlescholar            : "https://scholar.google.co.uk/citations?user=shBI4rYAAAAJ&hl=en"
 locale                   : "en-GB"
 title                    : "Peter Kirton"
 title_separator          : "-"
@@ -184,7 +183,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
@@ -229,7 +228,7 @@ defaults:
   # _preprints
   - scope:
       path: ""
-      type: preprints
+      type: publications
     values:
       layout: single
       author_profile: true
