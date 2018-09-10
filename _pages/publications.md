@@ -11,7 +11,7 @@ You can also find my articles on <u><a href="{{site.author.googlescholar}}">my G
 {% include base_path %}
 
 
-<img src=""{{ cloud-peter-kirton.png | prepend: "/images/" | prepend: base_path }}""> 
+<img src="{{ cloud-peter-kirton.png | prepend: "/images/" | prepend: base_path }}"> 
 
 ## Preprints
 
