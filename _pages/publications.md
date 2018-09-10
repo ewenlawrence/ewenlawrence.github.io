@@ -24,3 +24,7 @@ You can also find my articles on <u><a href="{{site.author.googlescholar}}">my G
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+## Thesis
+
+My PhD thesis "Fluctuations and Noise in Nanomechanical and Nanoelectrical Devices" can be found <a href = "{{ 'THESIS_PK_FINAL.pdf' | prepend: "/files/" | prepend: base_path }}">here</a>
