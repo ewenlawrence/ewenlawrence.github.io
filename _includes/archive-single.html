@@ -45,7 +45,6 @@
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'preprints' and post.arXiv %}
-         {}
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -59,7 +58,7 @@
     {% if post.citation and post.paperurl %}
       <p><a href="{{ post.paperurl }}">{{ post.citation }}</a></p>
     {% elsif post.citation and post.collection == 'preprints' %}
-      <p><a href="{{ post.arXiv }}">{{ post.citation }}</a></p>
+      <p>Test <a href="{{ post.arXiv }}">{{ post.citation }}</a></p>
     {% elsif post.citation %}
       <p>{{ post.citation }} </p>
     {% elsif post.paperurl %}
