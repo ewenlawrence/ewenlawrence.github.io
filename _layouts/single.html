@@ -48,6 +48,9 @@ layout: default
         {% elsif page.citation %}
           <p>{{ page.citation }} </p>
         {% endif %}
+        {% if page.arXiv %}
+          <a href="{{ page.arXiv }}">{{ page.arXiv }}</a></p>
+        {% endif %}
     
         </header>
       {% endunless %}
