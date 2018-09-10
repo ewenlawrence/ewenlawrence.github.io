@@ -10,6 +10,9 @@ You can also find my articles on <u><a href="{{site.author.googlescholar}}">my G
 
 {% include base_path %}
 
+
+<img src="images/cloud-peter-kirton.png"> 
+
 ## Preprints
 
 {% for post in site.preprints reversed %}
