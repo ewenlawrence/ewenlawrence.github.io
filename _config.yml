@@ -228,7 +228,7 @@ defaults:
   # _preprints
   - scope:
       path: ""
-      type: publications
+      type: preprints
     values:
       layout: single
       author_profile: true
