@@ -1,4 +1,6 @@
 _site/
 hidden/
 Gemfile.lock
+images/*.pdf
+images/*.svg
 
