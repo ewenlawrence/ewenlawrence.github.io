@@ -48,7 +48,7 @@
     {% if post.citation and post.paperurl %}
       <p><a href="{{ post.paperurl }}"><u>{{ post.citation }}</u></a> <a href="{{ post.arXiv }}">arXiv</a></p>
     {% elsif post.citation and post.collection == 'preprints' %}
-      <p><a href="{{ post.arXiv }}">{{ post.citation }}</a></p>
+      <p><a href="{{ post.arXiv }}"><u>{{ post.citation }}</u></a></p>
     {% elsif post.citation %}
       <p>{{ post.citation }} </p>
     {% elsif post.paperurl %}

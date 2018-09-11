@@ -23,6 +23,12 @@ We have developed new methods combining the path integral description of quantum
 
 <p>Some recent publications about non-Markovian systems are below:</p>
 
+{% for post in site.preprints reversed %}
+  {% if post.project == 'non-Markovian' %}
+    {% include archive-short.html %}
+  {% endif %}
+{% endfor %}
+
 {% for post in site.publications reversed %}
   {% if post.project == 'non-Markovian' %}
     {% include archive-short.html %}
@@ -39,6 +45,12 @@ We have developed new methods combining the path integral description of quantum
 
 The Dicke model provides a simple fully quantum mechical description of the interaction between light and matter. 
 
+{% for post in site.preprints reversed %}
+  {% if post.project == 'Dicke model' %}
+    {% include archive-short.html %}
+  {% endif %}
+{% endfor %}
+
 {% for post in site.publications reversed %}
   {% if post.project == 'Dicke model' %}
     {% include archive-short.html %}
@@ -53,6 +65,12 @@ The Dicke model provides a simple fully quantum mechical description of the inte
 
 <img src="{{ 'organic1.png' | prepend: "/images/" | prepend: base_path }}" width="700"> 
 
+{% for post in site.preprints reversed %}
+  {% if post.project == 'organic polaritons' %}
+    {% include archive-short.html %}
+  {% endif %}
+{% endfor %}
+
 {% for post in site.publications reversed %}
   {% if post.project == 'organic polaritons' %}
     {% include archive-short.html %}
@@ -66,6 +84,12 @@ The Dicke model provides a simple fully quantum mechical description of the inte
 <div style="max-width: 750px;">
 
 <img src="{{ 'photonBEC1.png' | prepend: "/images/" | prepend: base_path }}" width="700"> 
+
+{% for post in site.preprints reversed %}
+  {% if post.project == 'photonBEC' %}
+    {% include archive-short.html %}
+  {% endif %}
+{% endfor %}
 
 {% for post in site.publications reversed %}
   {% if post.project == 'photonBEC' %}
