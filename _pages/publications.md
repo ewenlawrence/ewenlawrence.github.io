@@ -13,12 +13,12 @@ You can also find my articles on <u><a href="{{site.author.googlescholar}}">my G
 
 <img src="{{ 'cloud-peter-kirton.png' | prepend: "/images/" | prepend: base_path }}"> 
 
-<!-- ## Preprints
+## Preprints
 
 {% for post in site.preprints reversed %}
   {% include archive-single.html %}
 {% endfor %} 
--->
+
 
 ## Publications
 
