@@ -113,6 +113,7 @@ author:
   wikipedia        :
 
 
+
 # Reading Files
 include:
   - .htaccess
@@ -316,3 +317,5 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+    
+exclude: [vendor]
