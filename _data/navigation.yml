@@ -6,7 +6,17 @@ main:
   - title: "Publications"
     url: /publications/
   
+  - title: "Members"
+    url: /members/
 
+  - title: "Programs"
+    url: /programs/
+
+  - title: "Positions"
+    url: /positions/
+
+  - title: "Contact us"
+    url: /contact/  
 
   #- title: "Talks"
   #  url: /talks/    
