@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "Peter Kirton"
+title                    : "Group of Peter Kirton"
 title_separator          : "-"
-name                     : &name "Peter Kirton"
-description              : &description "personal description"
+name                     : &name "Group of Peter Kirton"
+description              : &description "The group of Peter Kirton"
 url                      : https://ewenlawrence.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ewenlawrence/ewenlawrence.github.io"
@@ -79,13 +79,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Peter Kirton"
-  avatar           : "profile.png"
+  name             : "Group of Peter Kirton"
+  avatar           : "group-photo.jpg"
   bio              : ""
   location         : "Glasgow, Scotland"
-  employer         :
-  googlescholar    : "https://scholar.google.co.uk/citations?user=shBI4rYAAAAJ&hl=en"
-  email            : "peter.kirton@strath.ac.uk"
+  employer         : "University of Strathclyde"
+  googlescholar    : 
+  email            : "group.peter.kirton@strath.ac.uk"
   uri              :
   bitbucket        :
   codepen          :
@@ -93,7 +93,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "peterkirton"
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
@@ -105,7 +105,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "PeterGKirton"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
