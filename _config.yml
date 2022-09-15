@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "Group of Peter Kirton"
+title                    : "OQS"
 title_separator          : "-"
-name                     : &name "Group of Peter Kirton"
-description              : &description "The group of Peter Kirton"
+name                     : &name "Open Quantum Systems"
+description              : &description "Research group of Peter Kirton at the universitiy of Strathclyde"
 url                      : https://ewenlawrence.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ewenlawrence/ewenlawrence.github.io"
@@ -79,13 +79,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Group of Peter Kirton"
+  name             : "OQS"
   avatar           : "group-photo.jpg"
-  bio              : ""
+  bio              : "Research group of Peter Kirton at the universitiy of Strathclyde"
   location         : "Glasgow, Scotland"
   employer         : "University of Strathclyde"
   googlescholar    : 
-  email            : "group.peter.kirton@strath.ac.uk"
+  email            : "peter.kirton@strath.ac.uk"
   uri              :
   bitbucket        :
   codepen          :
@@ -180,9 +180,9 @@ collections:
   preprints:
     output: true
     permalink: /:collection/:path/
-  #portfolio:
-  #  output: true
-  #  permalink: /:collection/:path/
+  members:
+    output: true
+    permalink: /:collection/:path/
   #talks:
   #  output: false
   #  permalink: /:collection/:path/
@@ -235,15 +235,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _members
   - scope:
       path: ""
-      type: portfolio
+      type: members
     values:
       layout: single
       author_profile: true
-      share: true
-      comment: true
+      share: false
+      comment: false
   # _talks
   - scope:
       path: ""
@@ -263,7 +263,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
