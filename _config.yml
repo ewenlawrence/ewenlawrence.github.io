@@ -10,7 +10,7 @@ locale                   : "en-GB"
 title                    : "OQS"
 title_separator          : "-"
 name                     : &name "Open Quantum Systems"
-description              : &description "Research group of Peter Kirton at the universitiy of Strathclyde"
+description              : &description "Research group of Peter Kirton at the Universitiy of Strathclyde"
 url                      : https://ewenlawrence.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ewenlawrence/ewenlawrence.github.io"
@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "OQS"
   avatar           : "group-photo.jpg"
-  bio              : "Research group of Peter Kirton at the universitiy of Strathclyde"
+  bio              : "Research group of Peter Kirton at the Universitiy of Strathclyde"
   location         : "Glasgow, Scotland"
   employer         : "University of Strathclyde"
   googlescholar    : 
@@ -215,8 +215,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _publications
   - scope:
       path: ""
@@ -224,8 +224,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _preprints
   - scope:
       path: ""
@@ -233,8 +233,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _members
   - scope:
       path: ""
@@ -251,7 +251,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
 
 # Sass/SCSS
 sass:
