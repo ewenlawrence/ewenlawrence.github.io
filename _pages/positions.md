@@ -5,4 +5,8 @@ permalink: /positions/
 author_profile: true
 ---
 
-## PLACEHOLDER
+<div style="max-width: 750px;">
+
+<p> There are currently no positions open in the group. </p>
+
+</div>
