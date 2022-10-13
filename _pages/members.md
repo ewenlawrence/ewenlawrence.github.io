@@ -7,14 +7,18 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.members %}
-  {% if post.role == "Group leader" %}
-    {% include archive-single.html %}
+## Group leader
+
+{% for member in site.members %}
+  {% if member.role == "Group leader" %}
+    {% include archive-member.html %}
   {% endif %}
 {% endfor %} 
 
-{% for post in site.members %}
-  {% if post.role == "PhD student" %}
-    {% include archive-single.html %}
+## PhD Students
+
+{% for member in site.members %}
+  {% if member.role == "PhD student" %}
+    {% include archive-member.html %}
   {% endif %}
 {% endfor %} 
