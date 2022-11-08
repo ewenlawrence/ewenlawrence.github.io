@@ -8,9 +8,9 @@
 
   <div class="member__avatar">
     {% if member.avatar contains "://" %}
-    	<img src="{{ member.avatar }}" alt="{{ member.name }} - {{ member.role }}">
+    	<img src="{{ member.avatar }}" width="500" alt="{{ member.name }} - {{ member.role }}">
     {% else %}
-    	<img src="{{ member.avatar | prepend: "/images/" | prepend: base_path }}" class="member__avatar" alt="{{ member.name }} - {{ member.role }}">
+    	<img src="{{ member.avatar | prepend: "/images/" | prepend: base_path }}" width="500" class="member__avatar" alt="{{ member.name }} - {{ member.role }}">
     {% endif %}
   </div>
 
@@ -20,13 +20,9 @@
   </div>
 
   <div class="member__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
     <ul class="member__urls social-icons">
       {% if member.email %}
-        <li><a href="mailto:{{ member.email }}"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
-      {% endif %}
-      {% if member.github %}
-        <li><a href="https://github.com/{{ member.github }}"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+        <li><a href="mailto:{{ member.email }}"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> {{ member.email | default: "Email" }}</a></li>
       {% endif %}
     </ul>
   </div>

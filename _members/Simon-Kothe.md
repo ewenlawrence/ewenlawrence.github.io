@@ -1,5 +1,5 @@
 ---
-title: "Simon Kothe"
+name: "Simon Kothe"
 collection: members
 permalink: /members/Simon-Kothe
 role: "PhD student"
